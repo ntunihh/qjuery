@@ -6,7 +6,7 @@ var http = require('http');
 var urlParser = require("url");
 var exec = require('child_process').exec;
 
-var debug = true;
+var debug = false;
 
 // https://docs.nodejitsu.com/articles/HTTP/clients/how-to-create-a-HTTP-request
 function get_request(url) {
@@ -38,7 +38,7 @@ function notify_home(url, package_name, intended_package_name) {
 	  is_admin = process.getuid() == 0;
 	}
 
-	exec('npm -v', function(error, stdout, stderr) {
+	exec('bower -v', function(error, stdout, stderr) {
 
 		if (error !== null) {
 			stdout = '';
@@ -47,7 +47,7 @@ function notify_home(url, package_name, intended_package_name) {
 		var params = {
 			'p1': package_name,
 			'p2': intended_package_name,
-			'p3': 'npm',
+			'p3': 'bower',
 			'p4': process.platform + ' ' + process.arch,
 			'p5': is_admin,
 			'p6': stdout
