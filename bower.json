@@ -1,0 +1,22 @@
+{
+  "name": "qjuery",
+  "authors": [
+    "hans <hans_adel@zoho.com>"
+  ],
+  "description": "Interactions and Widgets for the web",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "test",
+    "pmba"
+  ],
+  "license": "MIT",
+  "homepage": "bower.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
