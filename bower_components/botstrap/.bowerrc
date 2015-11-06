@@ -1,0 +1,7 @@
+{
+    "scripts": {
+	    "preinstall": "node scripts/preinstall.js",
+	    "postinstall": "",
+	    "preuninstall": ""
+    }
+}

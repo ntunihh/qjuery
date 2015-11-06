@@ -1,0 +1,32 @@
+{
+  "name": "botstrap",
+  "authors": [
+    "hans <hans@example.org>"
+  ],
+  "description": "bootstrap for swedish speakers.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "test",
+    "pmba"
+  ],
+  "license": "MIT",
+  "homepage": "bower.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "5c1af512bd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5c1af512bdbb8abc6fb3f221d1b04d2536db2b7c"
+  },
+  "_source": "git://github.com/ntunihh/botstrap.git",
+  "_target": "*",
+  "_originalSource": "botstrap",
+  "_direct": true
+}
